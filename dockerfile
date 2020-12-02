@@ -48,7 +48,7 @@ WORKDIR /debin
 
 # install python dependencies
 RUN apt-get -y install \
-    python3.6 \
+    python3.7 \
     python3-pip
 RUN pip3 install -r requirements.txt
 

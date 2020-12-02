@@ -47,10 +47,10 @@ ADD ./requirements.txt /debin/requirements.txt
 WORKDIR /debin
 
 # install python dependencies
-RUN apt-get -y install \
-    python3.7 \
-    python3-pip
-RUN pip3 install -r requirements.txt
+#RUN apt-get -y install \
+#    python3.7 \
+#    python3-pip
+#RUN pip3 install -r requirements.txt
 
 # build bap plugin
 WORKDIR /debin/ocaml
